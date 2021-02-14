@@ -2,3 +2,29 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
+
+
+.block {
+  width: 60vw;
+  height: 60vh;
+  border-radius: 8px;
+  margin: 32px;
+  padding:  32px;
+  p {
+    color: white;
+    font-weight: bolder;
+    text-align: justify;
+  }
+}
+
+.blue {
+  background-color: $blue;
+  box-shadow: -16px 16px 12px rgba(2,53,100,0.4);
+  float:right;
+}
+
+.orange {
+  background-color: $orange;
+  box-shadow: 16px 16px 12px rgba(199,21,5,0.4);
+  float:left;
+}
