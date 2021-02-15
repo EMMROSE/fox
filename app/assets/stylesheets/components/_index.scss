@@ -5,8 +5,8 @@
 
 
 .block {
-  width: 60vw;
-  height: 60vh;
+  width: 45vw;
+  height: 45vh;
   border-radius: 8px;
   margin: 32px;
   padding:  32px;
@@ -20,11 +20,40 @@
 .blue {
   background-color: $blue;
   box-shadow: -16px 16px 12px rgba(2,53,100,0.4);
-  float:right;
+  margin-left: 50vw;
+  // float:right;
 }
 
 .orange {
   background-color: $orange;
   box-shadow: 16px 16px 12px rgba(199,21,5,0.4);
-  float:left;
+  // float:left;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.blue-block {
+  background-image: url(../assets/blue.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {color: white; text-align: justify; font-weight: bolder; width: 33%;}
+}
+
+.orange-block {
+  background-image: url(../assets/orange.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {color: white; text-align: justify; font-weight: bolder; width: 33%;}
 }

@@ -62,6 +62,9 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    animate-rails (1.0.10)
+      rails
+    animate.css-rails (3.2.0)
     autoprefixer-rails (10.2.4.0)
       execjs
     bcrypt (3.1.16)
@@ -237,6 +240,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  animate-rails
+  animate.css-rails (~> 3.2.0)
   autoprefixer-rails
   bootsnap (>= 1.4.4)
   byebug
